@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: pixel;
+	src: url(../fuente/mini_pixel.ttf);
+}
+@font-face{
+	font-family:matrix;
+	src: url(../fuente/ring_matrix.ttf);
+}
+* {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	font-family: 'Rancho', cursive;	
+}
+ h3 {
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p{
+	font-size: 17px;
+	color: #000;
+	margin-left: 80px;
+}
+#pie{
+	font-size:30px;
+	color: #03C;
+	margin-left: 60px;
+	right:20px;
+	text-align: center;
+}
+.centro p{
+	font-size: 17px;
+	color: #000;
+	margin-left: 80px;
+}
+/* @media handheld, screen and(min-width:600px) and (max-width: 1023px){ 
+
+}
+
+
+
+
+@media handheld, screen and(max-width:599px){
+
+} */

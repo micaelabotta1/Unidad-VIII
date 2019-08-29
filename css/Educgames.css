@@ -1,0 +1,61 @@
+.caja1{
+
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.75);
+	border: 10px solid #F5F6CE;
+	background-color: #F5F6CE;
+	width: 30%;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 20px;
+	height: 350px;
+	margin-top: 20px;
+
+
+}
+
+.caja2{
+
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.75);
+	border: 10px solid #F5F6CE;
+	background-color: #F5F6CE;
+	width: 30%;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 20px;
+	height: 350px;
+	margin-top: 20px;
+	margin-left: 20px;
+
+
+}
+.imageneducagames {
+width: 100%;		
+}
+
+.contenido{
+
+height: 500px;
+width: 900px;
+}
+#pie{
+	font-size:40px;
+	color: #03C;
+	margin-left: 80px;
+	right:20px;
+	text-align: center;
+	margin-top: 40%;
+}
+#centro {
+    height: 0px;
+    text-align: left;
+}
+@media handheld, screen and(min-width:600px) and (max-width: 1023px){ 
+.contenido{
+width: 580px;
+}
+}
+@media handheld, screen and(max-width:599px){
+.contenido{
+width: 480px;
+}
+}

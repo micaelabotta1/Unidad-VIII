@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: pixel;
+	src: url(../fuente/mini_pixel.ttf);
+}
+@font-face{
+	font-family:matrix;
+	src: url(../fuente/ring_matrix.ttf);
+}
+* {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	font-family: 'Rancho', cursive;	
+}
+body {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefcea+0,f1da36+96 */
+background: #fefcea; /* Old browsers */
+background: -moz-linear-gradient(top, #fefcea 0%, #f1da36 96%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fefcea 0%,#f1da36 96%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fefcea 0%,#f1da36 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+} 
+
+.nav-bar { 
+    background-color: #F00;
+    /* height: 35px; */
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    margin-bottom: 10px;
+} 
+.tac{
+    text-align: center;
+    width: 39%;
+    margin: 0 auto;
+}
+.container{
+    margin-top:10px;
+    width: 100%;
+}
+.nav-bar-buttons {
+	background-color: #f5ea6f;
+    height: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.nav-bar-buttons > div{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    border: 1px solid #fbf6ca;
+   justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    cursor: pointer;
+}
+
+.centro{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    background: #f5ea6f;
+}
+.cajas{
+    margin-top: 20px;
+    width: 100%;
+}
+.cajas h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    /* color: white; */
+    width: 70%;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.c-hijo{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: justify;
+}
+.footer{
+    /* width: 100%; */
+    color: #868e96;
+    background: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-size: .8rem;
+}
+.footer div{
+    font-family: monospace;
+}
+
+
+/*media querys - responsive*/
+@media screen and (min-width: 320px) and (max-width: 736px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .tac{
+        width: 100%; 
+    }
+    .nav-bar-buttons > div{
+        width: 20%;
+    }
+    a{
+        font-size: 10px;
+    }
+    .centro{
+        width: 100%;
+        padding: 0;
+    }
+    .cajas{
+        margin-top: 0;
+        border-top: 1px solid #fcf8d8;
+    }
+    /* .footer div{
+        display: flex;
+    } */
+
+    
+  }

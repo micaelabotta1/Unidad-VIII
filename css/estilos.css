@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: pixel;
+	src: url(../fuente/mini_pixel.ttf);
+}
+@font-face{
+	font-family:matrix;
+	src: url(../fuente/ring_matrix.ttf);
+}
+* {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	font-family: 'Rancho', cursive;	
+}
+#nav-sociales { 
+	background-color: #F00;
+	height: 35px;
+	width: 960px;
+	margin: auto;
+}
+body {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefcea+0,f1da36+96 */
+background: #fefcea; /* Old browsers */
+background: -moz-linear-gradient(top, #fefcea 0%, #f1da36 96%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fefcea 0%,#f1da36 96%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fefcea 0%,#f1da36 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+}          
+#nav-sociales ul {
+	margin: auto;
+	width: 100%;
+	list-style-type: none;
+}
+#nav-sociales ul li {
+	float: left;
+}
+#contenedor {
+	height: auto;
+	width: 960px;
+	margin: auto;
+}
+#encabezado {
+	background-image: url(../img/libros.png);
+	height: 300px;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: auto;	
+}
+#botonera ul {
+	background-color: #f5ea6f;
+	height: 50px;
+}
+#botonera ul li {
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	width:20%;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+#botonera ul li a {
+	font-family:matrix;	
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: none;
+	font-weight: 600;
+}
+#centro{
+	background: #fff;
+	height: 400px;
+}
+.cajas {
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.75);
+	border: 10px solid #F5F6CE;
+	background-color: #F5F6CE;
+	width: 30%;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 20px;
+	height: 350px;
+	margin-top: 20px;
+}
+h3 {
+	font-family: pixel;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 200;
+	color: #F00;
+	padding-left: 20px;
+	font-size: 20px;
+	margin-right: 30px;
+}
+h1 {
+	font-size: 30px;
+	color: #00F;
+	text-align:center;
+	
+}
+.h1{
+	margin-left:587px;
+	margin-right:587px;
+}
+
+p{
+	font-size: 17px;
+	color: #000;
+	text-align:center;
+}
+#pie{
+	font-size:40px;
+	color: #03C;
+	margin-left: 80px;
+	right:20px;
+	text-align: center;
+}
+
+.caja1{
+	background-color: blue;
+	height: 100px;
+	width: 200px;
+
+}
+.caja2{
+
+	height: 100px;
+	width: 200px;
+
+}
+#fondo1{       
+width: 300px;
+height:100px;  
+} 
+#fondo2{    
+background-image: url(../img/robot.gif);    
+background-repeat: no-repeat;    
+background-position: bottom right; 
+} 
+#fondo3{    
+/* background-image: url(../fondo3.gif);     */
+background-repeat: no-repeat;    
+background-position: center; 
+}
+@media handheld, screen and(min-width:600px) and (max-width: 1023px){  
+#nav-sociales { 
+width: 400px;
+margin: auto;
+}    
+#contenedor {
+	width: 400px;
+}
+.caja1{
+width: 400px;
+}
+.caja2{
+width: 400px;
+}
+#fondo1{       
+width: 400px; 
+} 
+}
+@media handheld, screen and(max-width:599px){ 
+
+#nav-sociales { 
+width: 480px;
+}      
+#contenedor {
+width:480px;	
+}
+.caja1{
+width: 480px;
+}
+.caja2{
+width: 480px;
+
+}
+#fondo1{       
+width: 480px; 
+} 
+#fondo2{    
+background-image: none;    
+} 
+#fondo3{    
+background-image:none;    
+} 
+}
